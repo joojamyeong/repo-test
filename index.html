@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://hangeul.pstatic.net/hangeul_static/css/NanumMiRaeNaMu.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="main_wrap">
+      <div class="popup">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./images/popup1.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/popup2.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/popup3.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/popup4.png" alt="" />
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <a href="#none" class="todayClose">오늘 하루 열지 않기</a>
+        <a href="#none" class="popupClose">닫기</a>
+      </div>
+      <header>
+        <div class="logo"><img src="./images/logo.png" alt="#" /></div>
+        <div class="h-menu">
+          <a href="#">공사소개</a>
+          <a href="#">공지및공고</a>
+          <a href="#">사업안내</a>
+          <a href="#">시설이용안내</a>
+          <a href="#">고객센터</a>
+        </div>
+        <div class="h-icon">
+          <a href="#" class="callOpen"
+            ><img src="./images/call.png" alt=""
+          /></a>
+          <a href="SubLogin.html"><img src="./images/login.png" alt="" /></a>
+          <a href="#" class="hamOpen"
+            ><img src="./images/hamburger.png" alt=""
+          /></a>
+        </div>
+        <div class="callModal">
+          <div class="callBox">
+            <div class="modaltitle">
+              <h1>부서별 대표 전화번호</h1>
+              <a href="#none" class="callClose"
+                ><img src="./images/closewhite.png" alt=""
+              /></a>
+            </div>
+            <div class="phoneBook">
+              <table>
+                <thead>
+                  <tr>
+                    <th>부서명</th>
+                    <th>전화번호</th>
+                    <th>팩스번호</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>안전감사팀</td>
+                    <td>055-331-7311</td>
+                    <td>055-320-0412</td>
+                  </tr>
+                  <tr>
+                    <td>기획경영팀</td>
+                    <td>055-323-7310</td>
+                    <td>055-323-7318</td>
+                  </tr>
+                  <tr>
+                    <td>개발사업팀</td>
+                    <td>055-320-0461~5</td>
+                    <td>055-320-0466</td>
+                  </tr>
+                  <tr>
+                    <td>재무회계팀</td>
+                    <td>055-320-0450</td>
+                    <td>055-331-0454</td>
+                  </tr>
+                  <tr>
+                    <td>체육시설관리팀</td>
+                    <td>055-320-0452</td>
+                    <td>055-331-0454</td>
+                  </tr>
+                  <tr>
+                    <td>해동이슈포츠센터팀</td>
+                    <td>055-321-8445~7</td>
+                    <td>055-321-8448</td>
+                  </tr>
+                  <tr>
+                    <td>장유스포츠센터팀</td>
+                    <td>055-330-7338</td>
+                    <td>055-330-7339</td>
+                  </tr>
+                  <tr>
+                    <td>동부스포츠센터팀</td>
+                    <td>055-336-3318</td>
+                    <td>055-336-3320</td>
+                  </tr>
+                  <tr>
+                    <td>진영스포츠센터팀</td>
+                    <td>055-343-2800</td>
+                    <td>055-343-2801</td>
+                  </tr>
+                  <tr>
+                    <td>김해문화의전당운영팀</td>
+                    <td>055-320-1234</td>
+                    <td>055-320-1235</td>
+                  </tr>
+                  <tr>
+                    <td>김해예술창작스튜디오팀</td>
+                    <td>055-333-5678</td>
+                    <td>055-333-5679</td>
+                  </tr>
+                  <tr>
+                    <td>생활문화운동센터팀</td>
+                    <td>055-123-4567</td>
+                    <td>055-123-4568</td>
+                  </tr>
+                  <tr>
+                    <td>가축분뇨처리팀</td>
+                    <td>055-343-7022</td>
+                    <td>055-343-7024</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="callModal-imgwrap">
+                <img src="./images/modalcall.png" alt="" />
+                <img src="./images/modalcircle.png" alt="" />
+                <img src="./images/modalback.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="middle">
+        <h1>
+          미래를 열어가는 명품도시 창조 <br />
+          시민이 만족하는 전국 최고의 공기업
+        </h1>
+        <div class="input-wrap">
+          <input type="search" value="검색어를 입력하세요." id="searchInput" />
+        </div>
+      </div>
+      <div class="side-nav">
+        <a href="#">김해도시개발공사</a>
+        <a href="#sec02">공지 및 공고</a>
+        <a href="#sec03">주요사업안내</a>
+        <a href="#sec04">시민참여마당</a>
+      </div>
+      <div class="new">
+        <span>GHDC 최근소식</span>
+        <span>2024년 건설공사 안전점검 수행기관 모집 공고</span>
+        <span>2024-08-24</span>
+      </div>
+    </div>
+    <div class="hamModal">
+      <div class="hamModalwrap">
+        <div class="ham-left">
+          <img src="./images/logo.png" alt="" />
+          <p>공사소개</p>
+          <p>공지/공고</p>
+          <p>사업안내</p>
+          <p>시설이용안내</p>
+          <p>고객센터</p>
+        </div>
+        <div class="ham-right">
+          <a href="#none" class="hamClose"
+            ><img src="./images/hamClose.png" alt=""
+          /></a>
+          <ul class="ul1">
+            <li><a href="#none">인사말</a></li>
+            <li><a href="#none">연혁</a></li>
+            <li><a href="#none">사규</a></li>
+            <li><a href="#none">조직부서안내</a></li>
+            <li><a href="#none">찾아오시는길</a></li>
+          </ul>
+          <ul class="ul2">
+            <li><a href="#none">공지사항</a></li>
+            <li><a href="#none">계약</a></li>
+            <li><a href="#none">환경정보</a></li>
+            <li><a href="#none">분양정보</a></li>
+            <li><a href="#none">채용공고</a></li>
+            <li><a href="#none">정보공개</a></li>
+            <li><a href="#none">보도자료</a></li>
+          </ul>
+          <ul class="ul3">
+            <li><a href="#none">개발사업</a></li>
+            <li><a href="#none">건설대행사업</a></li>
+            <li><a href="#none">시설운영대행사업</a></li>
+          </ul>
+          <ul class="ul4">
+            <li><a href="#none">스포츠센터</a></li>
+            <li><a href="#none">화목맑은물순환센터</a></li>
+            <li><a href="#none">진영맑은물순환센터</a></li>
+            <li><a href="#none">온라인 견학신청</a></li>
+          </ul>
+          <ul class="ul5">
+            <li><a href="#none">고객제안</a></li>
+            <li><a href="#none">자주하는질문</a></li>
+            <li><a href="#none">문자알리미</a></li>
+            <li><a href="#none">민원신청</a></li>
+            <li><a href="#none">고객의 소리</a></li>
+            <li><a href="#none">칭찬합니다</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <section class="sec02" id="sec02">
+      <div class="sec02-wrap">
+        <h2>공지 및 공고</h2>
+        <div class="sec02-tabs">
+          <button class="tab active" data-category="공지">공지</button>
+          <button class="tab" data-category="계약">계약</button>
+          <button class="tab" data-category="채용">채용</button>
+          <button class="tab" data-category="환경">환경</button>
+          <button class="tab" data-category="분양">분양</button>
+          <button class="tab" data-category="정보공개">정보공개</button>
+          <button class="tab" data-category="보도자료">보도자료</button>
+        </div>
+        <div id="content-area"></div>
+        <button id="load-more">See More</button>
+      </div>
+    </section>
+    <section class="sec03" id="sec03">
+      <div class="sec03-wrap">
+        <h2>주요사업안내</h2>
+        <div class="sec03-bigtext">
+          <span
+            >시민의 <span class="white">삶</span>을 보다 <br />
+            풍요롭고 <span class="white">행복</span>하게</span
+          >
+        </div>
+        <div class="swiper mySwiper02">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="./images/sec03jangu.png"
+                data-hover-src="./images/sec03jangho.png"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/sec03bongan.png"
+                data-hover-src="./images/sec03ho2.png"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/sec03gungang.png"
+                data-hover-src="./images/sec03ho3.png"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/sec03munhwa.png"
+                data-hover-src="./images/sec03ho4.png"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/sec03noin.png"
+                data-hover-src="./images/sec03ho5.png"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/sec03bullam.png"
+                data-hover-src="./images/sec03ho6.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <section class="sec04" id="sec04">
+      <div class="sec04-inner">
+        <div class="sec04title">
+          <h1>시민참여마당</h1>
+        </div>
+        <div class="sec04-share">
+          <div class="sec04-left">
+            <div class="tabs">
+              <a href="#none" class="tab-link active" data-tab="box1"
+                >동부스포츠센터</a
+              >
+              <a href="#none" class="tab-link" data-tab="box2"
+                >장유스포츠센터</a
+              >
+              <a href="#none" class="tab-link" data-tab="box3"
+                >진영스포츠센터</a
+              >
+              <a href="#none" class="tab-link" data-tab="box4"
+                >해동이국민체육센터</a
+              >
+            </div>
+            <div class="centerBox active" id="box1">
+              <h2>동부스포츠센터</h2>
+              <div class="centerBox-desc">
+                <div>
+                  <img src="./images/sec4house.png" alt="" />
+                  <p>시설안내</p>
+                </div>
+                <div>
+                  <img src="./images/sec4alarm.png" alt="" />
+                  <p>이용안내</p>
+                </div>
+                <div>
+                  <img src="./images/sec4program.png" alt="" />
+                  <p>프로그램안내</p>
+                </div>
+                <div>
+                  <img src="./images/sec4headset.png" alt="" />
+                  <p>고객센터</p>
+                </div>
+                <div>
+                  <img src="./images/sec4ping.png" alt="" />
+                  <p>찾아오시는길</p>
+                </div>
+              </div>
+            </div>
+            <div class="centerBox" id="box2">
+              <h2>장유스포츠센터</h2>
+              <div class="centerBox-desc">
+                <div>
+                  <img src="./images/sec4house.png" alt="" />
+                  <p>시설안내</p>
+                </div>
+                <div>
+                  <img src="./images/sec4alarm.png" alt="" />
+                  <p>이용안내</p>
+                </div>
+                <div>
+                  <img src="./images/sec4program.png" alt="" />
+                  <p>프로그램안내</p>
+                </div>
+                <div>
+                  <img src="./images/sec4headset.png" alt="" />
+                  <p>고객센터</p>
+                </div>
+                <div>
+                  <img src="./images/sec4ping.png" alt="" />
+                  <p>찾아오시는길</p>
+                </div>
+              </div>
+            </div>
+            <div class="centerBox" id="box3">
+              <h2>진영스포츠센터</h2>
+              <div class="centerBox-desc">
+                <div>
+                  <img src="./images/sec4house.png" alt="" />
+                  <p>시설안내</p>
+                </div>
+                <div>
+                  <img src="./images/sec4alarm.png" alt="" />
+                  <p>이용안내</p>
+                </div>
+                <div>
+                  <img src="./images/sec4program.png" alt="" />
+                  <p>프로그램안내</p>
+                </div>
+                <div>
+                  <img src="./images/sec4headset.png" alt="" />
+                  <p>고객센터</p>
+                </div>
+                <div>
+                  <img src="./images/sec4ping.png" alt="" />
+                  <p>찾아오시는길</p>
+                </div>
+              </div>
+            </div>
+            <div class="centerBox" id="box4">
+              <h2>해동이국민체육센터</h2>
+              <div class="centerBox-desc">
+                <div>
+                  <img src="./images/sec4house.png" alt="" />
+                  <p>시설안내</p>
+                </div>
+                <div>
+                  <img src="./images/sec4alarm.png" alt="" />
+                  <p>이용안내</p>
+                </div>
+                <div>
+                  <img src="./images/sec4program.png" alt="" />
+                  <p>프로그램안내</p>
+                </div>
+                <div>
+                  <img src="./images/sec4headset.png" alt="" />
+                  <p>고객센터</p>
+                </div>
+                <div>
+                  <img src="./images/sec4ping.png" alt="" />
+                  <p>찾아오시는길</p>
+                </div>
+              </div>
+            </div>
+            <div class="quick">
+              <div class="online">
+                <h2>온라인 수강 신청</h2>
+                <div class="online-desc">
+                  <span
+                    >희망하는 강좌를 <br />
+                    온라인 신청하세요.</span
+                  >
+                  <img src="./images/online.png" alt="" />
+                </div>
+              </div>
+              <div class="money">
+                <h2>환불신청</h2>
+                <div class="money-desc">
+                  <span
+                    >환불하고싶은<br />
+                    강좌가 있으신가요?</span
+                  >
+                  <img src="./images/money.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sec04-right">
+            <h3>CUSTOMER CENTER</h3>
+            <div class="boldtext">
+              <span>신뢰받는 기업이</span> 되도록<br />
+              <span>최선의 노력</span>을 다하겠습니다.
+            </div>
+            <div class="rightImgwrap">
+              <div class="rightImg">
+                <img src="./images/sec4head.png" alt="" />
+                <p>고객제안</p>
+              </div>
+              <div class="rightImg">
+                <a href="Pagination.html">
+                  <img src="./images/sec4que.png" alt="" />
+                  <p>자주하는질문</p>
+                </a>
+              </div>
+              <div class="rightImg">
+                <img src="./images/sec4message.png" alt="" />
+                <p>문자알리미</p>
+              </div>
+              <div class="rightImg">
+                <img src="./images/sec4clipboard.png" alt="" />
+                <p>민원신청</p>
+              </div>
+              <div class="rightImg">
+                <img src="./images/sec4sound.png" alt="" />
+                <p>고객의소리</p>
+              </div>
+              <div class="rightImg">
+                <img src="./images/sec4up.png" alt="" />
+                <p>칭찬합니다</p>
+              </div>
+            </div>
+            <div class="callcenter"><a href="">콜 센 터 1600-8172</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="f-bannerWrap">
+      <div class="swiper mySwiper03">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/f-banner01.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/f-banner02.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/f-banner03.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/f-banner04.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/f-banner05.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/f-banner06.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/f-banner07.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/f-banner08.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/f-banner09.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/f-banner10.png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/f-banner11.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <footer>
+      <div class="f-inner">
+        <div class="f-logo"><img src="./images/logo.png" alt="" /></div>
+        <div>
+          <span>개인정보처리방침</span>
+          <span>이메일추출방지</span>
+          <span>영상정보운영처리방침</span>
+          <p>(50832)경남 김해시 가야로 245 (구산동)</p>
+          <p>
+            Copyright 2020 김해시도시개발공사 All rights reserved. E-mail :
+            admin@ghdc.or.kr
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      cssMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      autoplay: { delay: 2500, disableOnInteraction: false },
+      mousewheel: true,
+      keyboard: true,
+    });
+  </script>
+  <script>
+    var swiper = new Swiper(".mySwiper02", {
+      slidesPerView: 1,
+      spaceBetween: 80,
+      centeredSlides: true,
+      initialSlide: 0, // 첫 번째 슬라이드가 가운데로 보이도록 설정
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: { delay: 2500, disableOnInteraction: false },
+      breakpoints: {
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 150,
+        },
+      },
+    });
+  </script>
+  <script>
+    var swiper = new Swiper(".mySwiper03", {
+      slidesPerView: 7,
+      spaceBetween: 20,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      autoplay: { delay: 2500, disableOnInteraction: false },
+    });
+  </script>
+  <script src="js.js"></script>
+</html>
