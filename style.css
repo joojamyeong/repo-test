@@ -259,7 +259,7 @@ input[type="search"]::-webkit-search-cancel-button {
   position: fixed;
   top: 50%;
   right: 4%;
-  opacity: 0.3;
+  opacity: 1;
 }
 
 .side-nav a {
@@ -301,7 +301,7 @@ input[type="search"]::-webkit-search-cancel-button {
   background-color: rgba(0, 0, 0, 0.164);
   font-weight: bold;
   cursor: pointer;
-  opacity: 0.3;
+  opacity: 1;
 }
 
 .new span:nth-child(1) {
@@ -918,6 +918,18 @@ footer span:nth-child(3)::after {
     margin-top: 50px;
     width: 80%;
     text-align: center;
+    position: relative;
+    background-color: white;
+    color: #008b8b;
+  }
+  .ham-left p::after {
+    position: absolute;
+    content: "";
+    top: 23%;
+    right: 20%;
+    width: 60px;
+    height: 30px;
+    background: url(./images/banhamp.png) no-repeat;
   }
   .ham-left p:hover {
     color: #000;

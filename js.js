@@ -25,6 +25,7 @@ let hamModal = document.querySelector(".hamModal");
 let mainWrap = document.querySelector(".main_wrap");
 let popup = document.querySelector(".popup");
 let popupClose = document.querySelector(".popupClose");
+let todayClose = document.querySelector(".todayClose");
 let header = document.querySelector("header");
 let middle = document.querySelector(".middle");
 let sideNav = document.querySelector(".side-nav");
@@ -606,3 +607,50 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+// 오늘하루열지않기 <----나중에 질문
+
+// 페이지 로드 시 팝업 보이기 여부 확인
+const popupClosedUntil = localStorage.getItem("popupClosedUntil");
+const now = new Date().getTime();
+
+// 팝업이 닫혀 있어야 할 경우
+if (popupClosedUntil && now < popupClosedUntil) {
+  popup.hidden = true; // 팝업 숨김
+} else {
+  popup.hidden = false; // 팝업 보임
+}
+
+// 팝업 닫기 함수
+function closePopup() {
+  popup.hidden = true; // 팝업 숨기기
+  // 추가적인 상태 변경은 하지 않음
+}
+
+// 오늘 하루 열지 않기 기능
+todayClose.addEventListener("click", function (e) {
+  e.preventDefault(); // 기본 링크 동작 방지
+  closePopup(); // 팝업 닫기
+  const tomorrow = new Date().getTime() + 24 * 60 * 60 * 1000; // 내일 날짜 계산
+  localStorage.setItem("popupClosedUntil", tomorrow); // 로컬스토리지에 설정
+});
+
+// 팝업 닫기 버튼 클릭 이벤트
+popupClose.addEventListener("click", function (e) {
+  e.preventDefault(); // 기본 링크 동작 방지
+  closePopup(); // 팝업 닫기
+});
+
+// 여기에 추가하여 팝업을 닫을 때 뒤에 있는 요소를 보이게 하는 방법
+window.onload = function () {
+  const header = document.querySelector("header");
+  const middle = document.querySelector(".middle");
+  const sideNav = document.querySelector(".sideNav");
+  const newSpans = document.querySelector(".newSpans");
+
+  // 모든 요소의 opacity를 원래대로 설정
+  if (header) header.style.opacity = "1";
+  if (middle) middle.style.display = "block";
+  if (sideNav) sideNav.style.opacity = "1";
+  if (newSpans) newSpans.style.opacity = "1";
+};
