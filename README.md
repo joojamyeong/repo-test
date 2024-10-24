@@ -119,4 +119,4 @@
 
 - [와이어프레임 및 디자인](https://www.figma.com/design/SI5ptRHtayPKY2uAo75tQn/Untitled?node-id=0-1&t=EGlXbgd3nKWvlTXz-1)
 
-- [데모 사이트]()
+- [데모 사이트](https://joojamyeong.github.io/repo-test/)
