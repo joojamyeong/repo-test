@@ -35,7 +35,7 @@
 - 세부 내용 제공: 로그인서비스와 고객센터에 질문답변 서비스
 - 카테고리 별 페이지: 로그인서비스 , 고객서비스
 
-## �� 개발 환경
+##  개발 환경
 
 - 개발 환경 : <img src="https://img.shields.io/badge/windows10-0078D6?style=flat-square&logo=windows10&logoColor=white"/>
 - 사용 프로그램 : <img src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>  <img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
@@ -44,7 +44,7 @@
 
 
 
-## �� 페이지 구성
+##  페이지 구성
 
 ### 메인 페이지
 
@@ -105,16 +105,18 @@
 
 <br>
 
-| 서브02 : 안전수칙                                                                                                       |
+| 서브02 : 고객서비스                                                                                                       |
 | :---------------------------------------------------------------------------------------------------------------------- |
-| ![busanSub2]() |
+| ![sub2Pagenation](https://github.com/user-attachments/assets/79045345-acf3-43cd-87a3-555d3616b28b) |
 
-| 페이지 제작 당시 많이 완화가 되고 있었으나 아직 코로나 바이러스의 확산 방지를 위한 규정들이 존재했기에 이를 방문자에게 상기시키기 위한 컨텐츠가 배치되었습니다. AOS를 활용하여 컨텐츠들이 떠오르는 효과를 주어 지루한 느낌이 들지 않도록 제작하였습니다.
+| 이미지에 표시된 버튼을 누를시 이동하는 고객서비스 페이지입니다. 사용자의 편의성을 위해 목적별로 따로 구분해 왼쪽 상단에 박스모양으로 배치하였습니다. 
+또한 게시판형식으로 페이지네이션으로 제작하였습니다.
 
-## �� 링크
 
-- [브레인 스토밍]()
+## 링크
 
-- [와이어프레임 및 디자인]()
+- [브레인 스토밍](https://docs.google.com/presentation/d/1Lsb8isYSm-EICNjmwxDMCK4sU9JnLspV3NgE7UL19OU/edit#slide=id.p)
+
+- [와이어프레임 및 디자인](https://www.figma.com/design/SI5ptRHtayPKY2uAo75tQn/Untitled?node-id=0-1&t=EGlXbgd3nKWvlTXz-1)
 
 - [데모 사이트]()
